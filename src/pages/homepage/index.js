@@ -8,63 +8,63 @@ const react_projects = ['Project 1', 'Project 2', 'Project 3', 'Project 4', 'Pro
 const chartdata = [
   {
     date: 'Jan 22',
-    Profit: 2890,
-    Costs: 2338,
+    Costs: 3250,
+    Profit: 1950,
   },
   {
     date: 'Feb 22',
-    Profit: 2756,
-    Costs: 2103,
+    Costs: 2820,
+    Profit: 2103,
   },
   {
     date: 'Mar 22',
-    Profit: 3322,
-    Costs: 2194,
+    Costs: 3322,
+    Profit: 2560,
   },
   {
     date: 'Apr 22',
-    Profit: 3470,
-    Costs: 2108,
+    Costs: 3470,
+    Profit: 2108,
   },
   {
     date: 'May 22',
-    Profit: 3475,
-    Costs: 1812,
+    Costs: 3475,
+    Profit: 2743,
   },
   {
     date: 'Jun 22',
-    Profit: 3129,
-    Costs: 1726,
+    Costs: 3129,
+    Profit: 3000,
   },
   {
     date: 'Jul 22',
-    Profit: 3490,
-    Costs: 1982,
+    Costs: 3490,
+    Profit: 2743,
   },
   {
     date: 'Aug 22',
-    Profit: 2903,
-    Costs: 2012,
+    Costs: 2903,
+    Profit: 2980,
   },
   {
     date: 'Sep 22',
-    Profit: 2643,
-    Costs: 2342,
+    Costs: 2643,
+    Profit: 3005,
   },
   {
     date: 'Oct 22',
-    Profit: 2837,
-    Costs: 2473,
+    Costs: 2837,
+    Profit: 3250,
   },
   {
     date: 'Nov 22',
-    Profit: 2954,
-    Costs: 3848,
+    Costs: 2954,
+    Profit: 3848,
   },
   {
     date: 'Dec 22',
-    Profit: 3239,
-    Costs: 3736,
+    Costs: 3239,
+    Profit: 3736,
   },
 ];
 
@@ -89,7 +89,7 @@ export default function HomePage() {
 
 
             <div className='w-1/3 flex flex-col gap-2'>
-              <Card className="mx-auto max-w-sm">
+              <Card className="ms-auto me-3 max-w-sm">
                 <div className="flex justify-start space-x-5 items-center">
                   <ProgressCircle value={75} size="lg">
                     <span className="text-xs font-medium text-slate-700">75%</span>
@@ -105,7 +105,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="mx-auto max-w-sm">
+              <Card className="ms-auto me-3 max-w-sm">
                 <div className="flex justify-start space-x-5 items-center">
                   <ProgressCircle value={36} size="lg">
                     <span className="text-xs font-medium text-slate-700">36%</span>
