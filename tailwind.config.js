@@ -14,6 +14,9 @@ module.exports = {
     current: 'currentColor',
     extend: {
       colors: {
+        
+        'bg_light': '#fef9f9',
+
         // light mode
         tremor: {
           brand: {
