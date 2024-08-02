@@ -24,7 +24,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f100;
+  background: #00000000;
 }
 
 /* Handle */
@@ -35,5 +35,5 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffffff31;
+  background: #00000058;
 }

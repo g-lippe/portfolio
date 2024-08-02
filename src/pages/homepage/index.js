@@ -3,7 +3,13 @@ import { Card, LineChart, ProgressCircle } from '@tremor/react';
 import Navbar from "../../components/navbar";
 import ProjSection from "../../components/proj-section";
 
-const react_projects = ['Project 1', 'Project 2', 'Project 3', 'Project 4', 'Project 5'];
+const react_projects = [
+  { name: 'Support Tickets', link: '/pages/dashboards/support' },
+  { name: 'Board Ambulance', link: '/pages/dashboards/Board_Ambulance' },
+  { name: 'Project 3', link: '#' },
+  { name: 'Project 4', link: '#' },
+  { name: 'Project 5', link: '#' },
+];
 
 const chartdata = [
   {

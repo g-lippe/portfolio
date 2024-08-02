@@ -10,7 +10,7 @@ function AppRoutes() {
 
       <Routes>
         <Route path="/"         element={<HomePage />} />
-        <Route path="/Board_Ambulance"  element={<Board_Ambulance />} />
+        <Route path="/pages/dashboards/Board_Ambulance"  element={<Board_Ambulance />} />
         <Route path="/pages/dashboards/support"  element={<SupportDashBoard />} />
         <Route path="*"         element={<div> Page not found </div>} />
       </Routes>
