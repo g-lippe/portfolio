@@ -104,8 +104,6 @@ export default function SupportDashBoard() {
         <div className="w-3/4 p-4">
 
 
-
-
           <CustomTable
             title="Support Tickets"
             headers={table_headers_support}
@@ -114,8 +112,6 @@ export default function SupportDashBoard() {
             zebra={false}
             classes={"mt-2 h-[42rem]"}
           />
-
-
 
 
 
