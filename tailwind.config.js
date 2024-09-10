@@ -14,8 +14,17 @@ module.exports = {
     current: 'currentColor',
     extend: {
       colors: {
+      
         
+        'primary': '#CCD6F6',
+        'secondary': '#3772FF',
+        'accent': '#5DEECD',
+
+
+        'main_bg_dark': '#0A192F',
         'bg_light': '#fef9f9',
+        'light_transparent': '#ffffff1c',
+      
 
         // light mode
         tremor: {

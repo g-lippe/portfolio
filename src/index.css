@@ -5,10 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
-  background-color: #fef9f9;
-  color: #1b0508;
+  background-color: #0A192F;
+  color: #ffffff;
   font-family: 'Inter';
 }
+
 
 .inter-normal {
   font-family: "Inter", sans-serif;
@@ -17,20 +18,28 @@ body {
   font-style: normal;
 }
 
+.pallete {
+  color: #dc323f;
+  color: #F1FAEE;
+  color: #A8DADC;
+  color: #457B9D;
+  color: #1D3557;
+}
+
 /* width */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #00000000;
+  background: #0A192F;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #00000039;
-  border-radius: 3px;
+  background: #8892B0;
+  border-radius: 2px;
 }
 
 /* Handle on hover */

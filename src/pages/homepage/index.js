@@ -1,35 +1,66 @@
+import { Fragment } from "react";
+import Navbar from "../../components/navbar";
+import { Card } from "@tremor/react";
 
 
 export default function HomePage() {
   return (
+    <Fragment>
 
-    <div className='flex  justify-center p-1'>
-      <div className="w-3/5 p-4">
+      <Navbar />
 
-        <div className='flex pt-16'>
-          <div className="w-1/2">
-            <p className='text-5xl pt-3 font-bold '>
-              Gabriel A. Felippe
-            </p>
-            <p className='text-xl p-1 font-semibold '>
-              Web Developer
-            </p>
-            <p className='p-1 pt-3 '>
-              I create interactive, pixel perfect solutions <br />
-              combining code, data and design 
-            </p>
-          </div>
 
-          <div className="w-1/2">
-            <p className='text-m p-3 border-2 border-slate-100'>
-              Starting in 2015, I began coding in Lua by contributing to Planetoid Pioneers, a game in development at the time by Data Realms <br />
+      <div className='flex justify-center p-1'>
+        <div className="w-4/5  box-border p-4">
 
-            </p>
-          </div>
+          <section>
+
+            <div className='flex height-screen my-72'>
+
+              <div className="p-5 border-2 rounded-xl border-light_transparent w-3/4">
+
+                <p className="text-accent mb-6 font-mono ">Hi, my name is</p>
+
+                <h1 className="text-7xl font-bold mb-3 text-primary">Name LastName</h1>
+                <h1 className="text-7xl font-bold mb-6 text-primary opacity-70">I build things for the web.</h1>
+
+                <p className="text-primary opacity-70 ">
+                  Aenean posuere tincidunt risus, at consectetur turpis porttitor at. Quisque fringilla vestibulum tincidunt. Quisque congue odio sit amet arcu interdum, nec venenatis nisl fringilla. 
+                </p>
+
+
+
+              </div>
+
+
+
+
+
+
+            </div>
+
+          </section>
+          <section>
+            <div className="p-5 border-2 rounded-xl border-light_transparent w-3/4">
+
+              <p className="text-primary opacity-70 ">
+              Pellentesque accumsan amori mollis. Suspendisse mattis ante non augue tincidunt bibendum. Sed ornare erat ac eros condimentum ullamcorper. 
+              Proin ullamcorper lacus a tristique varius. Curabitur molestie venenatis est vitae ullamcorper. 
+              Integer sit amet quam et orci tempor imperdiet. Cras quis nunc id nulla fermentum varius interdum eu sem.
+              </p>
+
+
+
+            </div>
+
+          </section>
+
+
+
         </div>
-
-
       </div>
-    </div>
+
+
+    </Fragment>
   );
 }
