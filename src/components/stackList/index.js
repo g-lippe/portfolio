@@ -2,8 +2,8 @@ export default function StackList({ stackList: string }) {
 
   const listItem = (string) => {
     return (
-      <li className="mb-2 mx-auto select-none transition duration-1000 
-      hover:text-accent hover:duration-200 hover:translate-x-1.5" >
+      <li className="mb-2 mx-auto select-none transition duration-500 
+      hover:text-accent hover:duration-100 hover:translate-x-0.5" >
         {string}
     </li>)
   }
