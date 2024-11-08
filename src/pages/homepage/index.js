@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Navbar from "../../components/navbar";
 import { Card, Divider } from "@tremor/react";
 import SectionAboutMe from "../../components/sectionAboutMe";
+import SectionWhereWorked from "../../components/sectionWhereWorked";
 
 
 export default function HomePage() {
@@ -29,14 +30,7 @@ export default function HomePage() {
                   Aenean posuere tincidunt risus, at consectetur turpis porttitor at. Quisque fringilla vestibulum tincidunt. Quisque congue odio sit amet arcu interdum, nec venenatis nisl fringilla.
                 </p>
 
-
-
               </div>
-
-
-
-
-
 
             </div>
 
@@ -45,6 +39,8 @@ export default function HomePage() {
 
 
           <SectionAboutMe />
+
+          <SectionWhereWorked />
 
 
         </div>
